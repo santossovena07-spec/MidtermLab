@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <title>Delos Santos - Online Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
+    >
+      <div class="container">
+        
+        <a class="navbar-brand fw-bold fs-4 text-primary" href="#">
+          Delos Santos
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+
+    <section class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          
+          <div class="col-lg-6">
+            <span class="badge bg-primary mb-3 px-3 py-2">
+              Available for Hire
+            </span>
+
+            <h1 class="display-4 fw-bold lh-sm mb-4">
+              Frontend Developer &
+              <span class="text-primary">UI Designer</span>
+            </h1>
+
+            <p class="lead text-muted mb-4">
+              I build websites using modern HTML, CSS,
+              JavaScript, and Bootstrap.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#work" class="btn btn-primary btn-lg"> View My Work </a>
+
+              <a href="#contact" class="btn btn-outline-secondary btn-lg">
+                Get in Touch
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-center">
+            <img
+              src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/634191745_999017336627171_1972328918696820683_n.jpg?stp=dst-jpg_tt6&cstp=mx1170x1167&ctp=s1170x1167&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGTtZQpdSDwEcic8gGHIytfNtU_D6PaJKA21T8Po9okoC5i9-8esJ1JdnZ2ImEs3FI5VV04qYDBm8Pc-iGejCaL&_nc_ohc=12wTd-eyZ1oQ7kNvwGii7ph&_nc_oc=AdpNYIwibJbmrQw3tyqzdu3mDn5FIT2MZMo_nixx0sFOWJNN-crBolVqTxzN5vX2wTk&_nc_zt=23&_nc_ht=scontent.fmnl4-6.fna&_nc_gid=44YY68HSbiZ0QrH-QF0yYA&_nc_ss=7b2a8&oh=00_AQGGdMI0l0kb_bjCCOc7qAKYeiVtYbn2EvxcRvtk11CVzQ&oe=6A818600
+                "
+              alt="Delos Santos"
+              class="img-fluid rounded-4 shadow-lg profile-image"
+              width="540"
+              height="540"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="container mt-5">
+      <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        <strong>Welcome!</strong>
+        Thanks for visiting my online portfolio.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+    </section>
+
+    <section id="work" class="py-5">
+      <div class="container">
+        
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Selected Work</h2>
+          <p class="text-muted">A selection of my recent projects.</p>
+        </div>
+
+        <div class="row g-4">
+          
+          <div class="col-sm-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="project-image bg-primary text-white">
+                <span>E-Commerce</span>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-primary-subtle text-primary mb-2">
+                  UI Design
+                </span>
+
+                <h3 class="card-title h5 fw-semibold">E-Commerce Redesign</h3>
+
+                <p class="card-text text-muted">
+                  A clean and responsive redesign for an online shopping
+                  website.
+                </p>
+              </div>
+
+              <div class="card-footer bg-transparent border-0 pt-0 pb-4">
+                <button
+                  class="btn btn-sm btn-outline-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#projectModal"
+                >
+                  View Case Study
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="project-image bg-dark text-white">
+                <span>Portfolio</span>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-success-subtle text-success mb-2">
+                  Development
+                </span>
+
+                <h3 class="card-title h5 fw-semibold">Personal Portfolio</h3>
+
+                <p class="card-text text-muted">
+                  A responsive personal portfolio built with HTML, CSS, and
+                  Bootstrap.
+                </p>
+              </div>
+
+              <div class="card-footer bg-transparent border-0 pt-0 pb-4">
+                <a href="#contact" class="btn btn-sm btn-outline-primary">
+                  Discuss Project
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="project-image bg-success text-white">
+                <span>Dashboard</span>
+              </div>
+
+              <div class="card-body">
+                <span class="badge bg-warning-subtle text-warning mb-2">
+                  Web Design
+                </span>
+
+                <h3 class="card-title h5 fw-semibold">Admin Dashboard</h3>
+
+                <p class="card-text text-muted">
+                  A simple dashboard interface designed for easy navigation and
+                  usability.
+                </p>
+              </div>
+
+              <div class="card-footer bg-transparent border-0 pt-0 pb-4">
+                <a href="#contact" class="btn btn-sm btn-outline-primary">
+                  Discuss Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">My Skills</h2>
+          <p class="text-muted">Technologies and tools I use.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">HTML & CSS</span>
+                <span>90%</span>
+              </div>
+
+              <div class="progress">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">Bootstrap</span>
+                <span>85%</span>
+              </div>
+
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="fw-semibold">JavaScript</span>
+                <span>70%</span>
+              </div>
+
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="list-group shadow-sm">
+              <div class="list-group-item fw-bold bg-primary text-white">
+                Tools I Use
+              </div>
+
+              <div class="list-group-item">HTML & CSS</div>
+
+              <div class="list-group-item">Bootstrap 5</div>
+
+              <div class="list-group-item">JavaScript</div>
+
+              <div class="list-group-item">Figma</div>
+
+              <div class="list-group-item">Git & GitHub</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="about" class="py-5">
+      <div class="container">
+        
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <h2 class="fw-bold mb-3">About Me</h2>
+
+            <p class="text-muted mb-4">
+              I'm a starting frontend developer and UI designer, creating
+              responsive and user-friendly websites.
+            </p>
+
+            <div class="accordion" id="aboutAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#experience"
+                  >
+                    My Experience
+                  </button>
+                </h2>
+
+                <div
+                  id="experience"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#aboutAccordion"
+                >
+                  <div class="accordion-body">
+                    I create responsive websites and user interfaces using
+                    modern web technologies.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#goals"
+                  >
+                    My Goals
+                  </button>
+                </h2>
+
+                <div
+                  id="goals"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#aboutAccordion"
+                >
+                  <div class="accordion-body">
+                    My goal is to continuously improve my development and design
+                    skills while creating useful websites.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="about-box p-4 rounded-4 shadow-sm">
+              <h4 class="fw-bold mb-3">What I Do</h4>
+
+              <p class="text-muted">
+                I specialize in creating simple, responsive, and modern
+                websites.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-primary">Web Design</span>
+                <span class="badge bg-success">Frontend</span>
+                <span class="badge bg-dark">Bootstrap</span>
+                <span class="badge bg-warning text-dark">UI/UX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">What I Can Create</h2>
+        </div>
+
+        <div
+          id="portfolioCarousel"
+          class="carousel slide shadow rounded-4 overflow-hidden"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#portfolioCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#portfolioCarousel"
+              data-bs-slide-to="1"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#portfolioCarousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-content bg-primary text-white">
+                <h3>Responsive Websites</h3>
+                <p>
+                  Websites that work on desktop, tablet, and mobile devices.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-content bg-dark text-white">
+                <h3>Modern UI Design</h3>
+                <p>Clean and simple interfaces focused on usability.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-content bg-success text-white">
+                <h3>Bootstrap Projects</h3>
+                <p>Fast and responsive layouts using Bootstrap 5.</p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        
+        <div class="row justify-content-center">
+          <div class="col-lg-7 text-center mb-5">
+            <h2 class="fw-bold">Let's Work Together</h2>
+
+            <p class="text-muted">
+            Fill in the form and I'll get back to you.
+            </p>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="contactName" class="form-label fw-medium">
+                    Name
+                  </label>
+
+                  <input
+                    type="text"
+                    id="contactName"
+                    class="form-control form-control-lg"
+                    placeholder="Your full name"
+                    required
+                  />
+
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="contactEmail" class="form-label fw-medium">
+                    Email
+                  </label>
+
+                  <input
+                    type="email"
+                    id="contactEmail"
+                    class="form-control form-control-lg"
+                    placeholder="you@example.com"
+                    required
+                  />
+
+                  <div class="invalid-feedback">
+                    Please enter a valid email.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label fw-medium">
+                    Message
+                  </label>
+
+                  <textarea
+                    id="contactMessage"
+                    class="form-control form-control-lg"
+                    rows="5"
+                    placeholder="Tell me about your project..."
+                    required
+                  ></textarea>
+
+                  <div class="invalid-feedback">Please write a message.</div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg w-100">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <div
+      class="modal fade"
+      id="projectModal"
+      tabindex="-1"
+      aria-labelledby="projectModalLabel"
+      aria-hidden="true"
+    >
+      
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel">
+              E-Commerce Redesign
+            </h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p>
+              This project focuses on creating a clean, responsive, and
+              user-friendly e-commerce interface.
+            </p>
+
+            <p class="mb-0">
+              <strong>Technologies:</strong>
+              HTML, CSS, Bootstrap, JavaScript
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+
+            <a href="#contact" class="btn btn-primary" data-bs-dismiss="modal">
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <footer class="py-4 bg-dark text-white text-center">
+      
+      <div class="container">
+        <p class="mb-1">© 2026 Delos Santos</p>
+
+        
+      </div>
+      
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
